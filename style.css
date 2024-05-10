@@ -1,11 +1,12 @@
 /* Stylesheet */ 
 
 /*Outline for Debugging */
-
+/*
 * {
     outline: 2px solid rgba(255, 0, 0, 0.466);
 }
-
+*/
+/* List and links formatting */ 
 
 ul {
     /* Removes bullets on list items */
@@ -13,7 +14,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 a {
@@ -23,6 +24,7 @@ a {
     font-size: 18px;
 }
 
+/* Full Body */
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -30,6 +32,15 @@ body {
     flex-direction: column;
 }
 
+button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    padding: 5px;
+}
+
+/* Header Section */
 .header {
     background: #1f2947;
     display: flex;
@@ -51,4 +62,53 @@ body {
 .nav-links {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    margin: 48px;
+    height: 500px;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    justify-content: flex-start;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*
+.hero-image img {
+    max-width: 100%;
+}
+
+.hero-image {
+    margin: 20px;
+}
+*/
+
+.hero-image {
+    background-color: grey;
+    color: #FFF;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 60px 150px;
+    margin: 15px;
+    border: 1px solid black;
 }
