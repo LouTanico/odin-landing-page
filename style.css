@@ -111,6 +111,7 @@ button {
     flex: 1;
     display: flex;
     flex-direction: column;
+    margin: 0 48px;
 }
 
 .art-gallery {
@@ -149,4 +150,37 @@ button {
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+}
+
+/* Quote Section */
+
+.quote-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 100px;
+    flex: 1;
+}
+
+.quote-text {
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 24px;
+    text-align: right;
 }
