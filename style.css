@@ -1,10 +1,11 @@
 /* Stylesheet */ 
 
 /*Outline for Debugging */
-
+/*
 * {
     outline: 2px solid rgba(255, 0, 0, 0.466);
 }
+*/
 
 /* List and links formatting */ 
 
@@ -224,4 +225,16 @@ button {
 
 .cta-button button {
     border: 2px solid #E5E7EB;
+}
+
+/* Footer Section */
+
+.footer {
+    height: 72px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
